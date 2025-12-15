@@ -77,7 +77,7 @@ Para realizar esta práctica, el estudiante debe tener claros los siguientes tem
 Como primer paso, se accedió a la carpeta del frontend del proyecto realizado en la semana anterior. Desde esta ubicación se trabajó en la modificación y contenerización de la aplicación React.
 
 **Figura 8-1. Frontend del proyecto en Visual Studio Code**  
-![Frontend en VS Code](/capturas/capturatafrontend.png)
+![Frontend en VS Code](/capturas/capturafrontend.png)
 
 ---
 
