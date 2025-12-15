@@ -77,7 +77,7 @@ Para realizar esta práctica, el estudiante debe tener claros los siguientes tem
 Como primer paso, se accedió a la carpeta del frontend del proyecto realizado en la semana anterior. Desde esta ubicación se trabajó en la modificación y contenerización de la aplicación React.
 
 **Figura 8-1. Frontend del proyecto en Visual Studio Code**  
-![Frontend en VS Code](capturas/capturatafrontend.png)
+![Frontend en VS Code](/capturas/capturatafrontend.png)
 
 ---
 
@@ -90,7 +90,7 @@ Se crearon los archivos necesarios para la contenerización del frontend:
 - `nginx.conf` para la configuración del servidor web  
 
 **Figura 8-2. Creación de archivos Docker y Nginx**  
-![Creación de archivos](capturas/creaciónarchivos.png)
+![Creación de archivos](/capturas/creacionarchivos.png)
 
 ---
 
@@ -104,7 +104,9 @@ useEffect(() => {
     .then(data => setHens(data));
 }, []);
 
-### Paso 4: Levantamiento del proyecto con Docker Compose
+**Figura 8-3. Editar el codigo**  
+![Creación de archivos](/capturas/editandofront.png)
+### Paso 4: Editando frontend
 
 Finalmente, se levantaron todos los servicios (frontend, backend y base de datos) utilizando Docker Compose, permitiendo que los contenedores se comuniquen correctamente entre sí.
 
